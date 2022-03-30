@@ -105,6 +105,7 @@ static Key keys[] = {
     { 0,                            XF86XK_AudioLowerVolume, spawn,    {.v = voldowncmd} },
     { 0,                            XF86XK_AudioRaiseVolume, spawn,    {.v = volupcmd} },
     { 0,                            XF86XK_AudioPlay, spawn,    {.v = playpausecmd} },
+    { 0,                            XF86XK_AudioPause, spawn,    {.v = playpausecmd} },
     { 0,                            XF86XK_AudioNext, spawn,    {.v = nextcmd} },
     { 0,                            XF86XK_AudioPrev, spawn,    {.v = prevcmd} },
 	TAGKEYS(                        XK_1,                      0)
